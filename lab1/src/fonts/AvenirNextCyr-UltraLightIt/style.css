@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: local('Avenir Next Ultra Light Italic'), local('Avenir-Next-Ultra-Light-Italic'),
+        url('AvenirNextCyr-UltraLightIt.woff2') format('woff2'),
+        url('AvenirNextCyr-UltraLightIt.woff') format('woff'),
+        url('AvenirNextCyr-UltraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
