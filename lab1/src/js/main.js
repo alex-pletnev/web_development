@@ -44,7 +44,7 @@ function validateMainForm() {
             validateMessage.innerHTML = "<object data=\"../web_access_icon.svg\" width=\"100px\" height=\"100px\" style='float: left'></object> <div class='validate-message' style='margin-top: 30px;\n" +
                 "    margin-left: 8px;\n float: left; '>The parametrs are correct</div>";
             //get data to php
-            let data = "?x=" + x + "&y=" + y + "&r=" + r;
+            let data = "?x="+ x + "&y=" + y + "&r=" + r;
             let xhr = new XMLHttpRequest();
             xhr.open("GET", "index.php" + data, true);
             console.log(data);
