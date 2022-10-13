@@ -10,23 +10,11 @@
     <name>lab2</name>
     <packaging>war</packaging>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <junit.version>5.8.1</junit.version>
-    </properties>
-
     <dependencies>
         <dependency>
-            <groupId>javax.mvc</groupId>
-            <artifactId>javax.mvc-api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -42,6 +30,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <junit.version>5.8.1</junit.version>
+    </properties>
 
     <build>
         <plugins>

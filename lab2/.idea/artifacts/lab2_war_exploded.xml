@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="lab2:war exploded">
-    <output-path>$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT.war</output-path>
+    <output-path>$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -12,9 +12,6 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="lab2" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: javax.mvc:javax.mvc-api:1.0.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
