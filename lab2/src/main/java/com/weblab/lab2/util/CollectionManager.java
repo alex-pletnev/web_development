@@ -14,7 +14,7 @@ public class CollectionManager {
     public static CollectionManager instance = new CollectionManager();
     private  Map<HttpSession, ArrayList<Point>> users = new WeakHashMap<>();
 
-    public synchronized boolean  initData(HttpServletRequest req) {
+    public synchronized boolean initData(HttpServletRequest req) {
         if (users.containsKey(req.getSession())) {
             req.getSession().setAttribute("history", getPoints(req));
             return false;

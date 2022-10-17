@@ -9,6 +9,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Date;
 
 @WebServlet(name = "areaCheckServlet", value = "/checkServlet")
@@ -23,7 +25,18 @@ public class AreaCheckServlet extends HttpServlet {
         boolean status = checkHit(x, y, r);
         String workingTime = String.valueOf(startTime - System.currentTimeMillis());
         CollectionManager.instance.addPoint(req, new Point(x, y, r, time, status, workingTime));
+        updateTable(req, resp);
     }
+    static void updateTable(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        PrintWriter printWriter =  resp.getWriter();
+        ArrayList<Point> points = CollectionManager.instance.getPoints(req);
+        StringBuilder ans = new StringBuilder();
+        for (Point point : points) {
+            ans.append(point.httpRowToString());
+        }
+        printWriter.print(ans);
+    }
+
     private boolean checkHit(double x, double y, double r) {
         //1 part
         if (x > 0 && y > 0) {

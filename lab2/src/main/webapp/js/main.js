@@ -1,8 +1,16 @@
 let x = NaN;
 let y = NaN;
 let r = NaN;
+let tableHeader = "<tr class=\"answer_table\">\n" +
+    "                    <th class=\"answer_table\">X</th>\n" +
+    "                    <th class=\"answer_table\">Y</th>\n" +
+    "                    <th class=\"answer_table\">R</th>\n" +
+    "                    <th class=\"answer_table\">ТЕКУЩЕЕ ВРЕМЯ (UTC)</th>\n" +
+    "                    <th class=\"answer_table\">РЕЗУЛЬТАТ ПОПАДАНИЯ</th>\n" +
+    "                    <th class=\"answer_table\">ВРЕМЯ ИСПОЛНЕНИЯ</th>\n" +
+    "                </tr>"
 let validateMessage = document.querySelector('.validate-message');
-const regexAns = new RegExp('TRUE');
+const regexAns = new RegExp('(fasle|true)');
 startFunction();
 function setValueX(a_x) {
     x = String(a_x);
@@ -11,12 +19,13 @@ function setValueX(a_x) {
 }
 function startFunction() {
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "start.php", true);
+    let data = "?start=true"
+    xhr.open("GET", "./controller" + data, true);
     xhr.send(null);
     xhr.onload = () => {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
-                document.querySelector(".answer_table").innerHTML += xhr.response;
+                document.querySelector(".answer_table").innerHTML = tableHeader + xhr.response;
             }
         }
     }
@@ -25,12 +34,12 @@ function startFunction() {
 function clearAnsTable() {
     let xhr = new XMLHttpRequest();
     let data = "?clean=true";
-    xhr.open("GET", "clean.php" + data, true);
+    xhr.open("GET", "./controller" + data, true);
     xhr.send();
     xhr.onload = () => {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
-                document.querySelector(".answer_table").innerHTML = xhr.response;
+                document.querySelector(".answer_table").innerHTML = tableHeader + xhr.response;
             }
         }
     }
@@ -56,10 +65,8 @@ function validateMainForm() {
                     if (xhr.status === 200) {
                         validateMessage.innerHTML = "<object data=\"../web1_cycle_icon.svg\" width=\"100px\" height=\"100px\" style='float: left'></object> <div class='validate-message' style='margin-top: 30px;\n" +
                             "    margin-left: 8px;\n float: left; '>Waiting for the xhrer response</div>";
-                        let row = xhr.response;
-                        //console.log(xhr.response)
-                        document.querySelector(".answer_table").innerHTML += row;
-                        if (regexAns.test(row)) {
+                        document.querySelector(".answer_table").innerHTML = tableHeader + xhr.response;
+                        if (regexAns.exec(xhr.response)[0] === "true") {
                             validateMessage.innerHTML = "<object data=\"../web_access_icon.svg\" width=\"100px\" height=\"100px\" style='float: left'></object> <div class='validate-message' style='margin-top: 30px;\n" +
                                 "    margin-left: 8px;\n float: left; '>HIT</div>";
                         } else {

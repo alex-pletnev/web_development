@@ -14,7 +14,10 @@ public class ControllerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         CollectionManager.instance.initData(req);
-        if (req.getParameter("clean").equals("true")) {
+        if (req.getParameter("start").equals("true")) {
+            req.getRequestDispatcher("/starter").forward(req, resp);
+        }
+        else if (req.getParameter("clean").equals("true")) {
             req.getRequestDispatcher("/cleaner").forward(req, resp);
         }
         else{
