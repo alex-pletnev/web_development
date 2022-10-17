@@ -2,8 +2,6 @@ package com.weblab.lab2.model;
 
 
 import lombok.*;
-import lombok.extern.java.Log;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.Serializable;
 import java.text.ParseException;
@@ -20,11 +18,8 @@ public class Point implements Serializable {
     private double y;
     private double r;
     private String time;
-    private String workingTime;
     private boolean status;
-
-
-
+    private String workingTime;
 
     public static String getUtcTime(Date time) {
         SimpleDateFormat dateFormatGmt = new SimpleDateFormat("HH:mm:ss");
@@ -42,13 +37,7 @@ public class Point implements Serializable {
         }
     }
 
-    public void setWorkingTime(String workingTime) {
-        this.workingTime = workingTime;
-    }
 
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
 
 
     public String httpRowToString() {

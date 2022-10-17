@@ -24,8 +24,9 @@ function startFunction() {
 
 function clearAnsTable() {
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "clean.php", true);
-    xhr.send(null);
+    let data = "?clean=true";
+    xhr.open("GET", "clean.php" + data, true);
+    xhr.send();
     xhr.onload = () => {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
@@ -44,7 +45,7 @@ function validateMainForm() {
             validateMessage.innerHTML = "<object data=\"../web_access_icon.svg\" width=\"100px\" height=\"100px\" style='float: left'></object> <div class='validate-message' style='margin-top: 30px;\n" +
                 "    margin-left: 8px;\n float: left; '>The parametrs are correct</div>";
             //get data to php
-            let data = "?x="+ x + "&y=" + y + "&r=" + r;
+            let data = "?x="+ x + "&y=" + y + "&r=" + r + "&clean=false";
             let xhr = new XMLHttpRequest();
             xhr.open("GET", "index.php" + data, true);
             console.log(data);

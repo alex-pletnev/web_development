@@ -22,7 +22,7 @@ public class AreaCheckServlet extends HttpServlet {
         String time = Point.getUtcTime(new Date());
         boolean status = checkHit(x, y, r);
         String workingTime = String.valueOf(startTime - System.currentTimeMillis());
-        CollectionManager.instance.addPoint(req, new Point(x, y, r, time, workingTime, status));
+        CollectionManager.instance.addPoint(req, new Point(x, y, r, time, status, workingTime));
     }
     private boolean checkHit(double x, double y, double r) {
         //1 part
