@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<jsp:useBean id="history" scope="session" class="java.util.ArrayList"/>
 <!doctype html>
 <html lang="ru">
 <head>
@@ -8,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="icon" href="res/web1.2_icon.svg" type="image/svg">
+    <script src="./js/main.js"></script>
     <title>Лабароторная работа №1</title>
 </head>
 <body>
@@ -69,7 +71,7 @@
             </form>
         </td>
         <td>
-            <object id="plot" data="res/web_plot.svg" width="600px" height="600px"> </object>
+            <object id="plot" data="res/web2_plot.svg" width="600px" height="600px"> </object>
         </td>
     </tr>
     <tr>
@@ -92,6 +94,5 @@
         </td>
     </tr>
 </table>
-<script src="js/main.js"></script>
 </body>
 </html>

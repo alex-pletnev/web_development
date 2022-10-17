@@ -3,10 +3,10 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 400 400" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="80.374" id="Filter" width="140.526" x="69.891" y="140.044">
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="140.526" id="Filter" width="80.374" x="129.626" y="200.49">
 <feDropShadow dx="-4.37114e-07" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
 </filter>
-<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="140.259" id="Filter_2" width="80.0733" x="129.927" y="200.49">
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="139.565" id="Filter_2" width="139.565" x="190" y="80.9243">
 <feDropShadow dx="-4.37114e-07" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
 </filter>
 <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="141.05" id="Filter_3" width="140.195" x="190" y="199.756">
@@ -74,8 +74,8 @@
 </clipPath>
 </defs>
 <g id="Слой-2" vectornator:layerName="Слой 2">
-<path d="M79.891 140.044L200.417 140.044L200.417 200.418L79.891 200.418L79.891 140.044Z" fill="#bc4123" fill-rule="nonzero" filter="url(#Filter)" stroke="#121313" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
-<path d="M139.927 200.49L200 200.49L200 320.749" fill="#bc4123" fill-rule="nonzero" filter="url(#Filter_2)" stroke="#121313" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
+<path d="M200 200.49L200 321.016L139.626 321.016L139.626 200.49L200 200.49Z" fill="#bc4123" fill-rule="nonzero" filter="url(#Filter)" stroke="#121313" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
+<path d="M319.565 200.49L200 200.49L200 80.9243" fill="#bc4123" fill-rule="nonzero" filter="url(#Filter_2)" stroke="#121313" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
 <path d="M200.052 201.284C231.695 201.284 259.437 200.437 280.171 200.49C289.217 200.512 296.943 199.934 303.144 200.49C305.432 200.695 306.106 200.385 306.501 200.49C307.083 200.644 306.674 201.34 308.546 200.49C309.127 200.226 311.782 200.839 314.181 200.68C316.616 200.519 319.963 198.81 319.88 200.49C319.714 203.824 320.195 198.249 320.195 201.839C320.195 267.543 266.382 320.807 200 320.807" fill="#bc4123" fill-rule="nonzero" filter="url(#Filter_3)" stroke="#121313" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="0" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
 </g>
 <clipPath id="ArtboardFrame">
@@ -89,10 +89,9 @@
 </g>
 <g filter="url(#Filter_4)" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
 <path d="M200.538 19.6165L199.361 379.895" fill="#ffffff" fill-rule="nonzero" stroke="none"/>
-<path d="M200.515 26.6176C200.44 49.4298 199.361 379.895 199.361 379.895" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
-
-    <g fill="#ffffff" stroke="none">
-<path d="M200.509 28.3676L207.492 33.6405L200.538 19.6177L193.492 33.5947L200.509 28.3676Z" fill="#ffffff"/>
+<path d="M200.515 26.6175C200.44 49.4295 199.361 379.895 199.361 379.895" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
+<g fill="#ffffff" stroke="none">
+<path d="M200.509 28.3675L207.492 33.6403L200.538 19.6175L193.492 33.5946L200.509 28.3675Z" fill="#ffffff"/>
 </g>
 </g>
 <g filter="url(#Filter_5)" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
@@ -105,7 +104,6 @@
 <g filter="url(#Filter_6)" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
 <path d="M198.063 199.786C198.063 198.594 198.957 198.206 200.051 198.206C201.145 198.206 201.639 198.51 201.639 199.702C201.639 200.895 201.163 201.123 200.069 201.123C198.975 201.123 198.063 200.979 198.063 199.786Z" fill="#ffffff" fill-rule="nonzero" stroke="none"/>
 <path d="M198.063 199.786C198.063 198.594 198.957 198.206 200.051 198.206C201.145 198.206 201.639 198.51 201.639 199.702C201.639 200.895 201.163 201.123 200.069 201.123C198.975 201.123 198.063 200.979 198.063 199.786Z" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="3"/>
-
 </g>
 <path d="M195.232 139.881L205.063 139.881" fill="#ffffff" fill-rule="nonzero" filter="url(#Filter_7)" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="1" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
 <path d="M195.525 79.8771L205.356 79.8771" fill="#ffffff" fill-rule="nonzero" filter="url(#Filter_8)" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="1" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
