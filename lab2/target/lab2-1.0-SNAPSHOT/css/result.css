@@ -1,0 +1,16 @@
+.prew {
+    color: #FFFFFF;
+    font-family: "Avenir Next",  serif;
+    margin-top: 30px;
+    font-weight: bolder ;
+    font-size: 36px;
+    text-align: center;
+    width: 400px;
+    text-transform: uppercase;
+}
+#mt {
+    width: 1200px;
+}
+#pic {
+    text-align: center;
+}
