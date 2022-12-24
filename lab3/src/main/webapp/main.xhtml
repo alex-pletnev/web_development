@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: aleksandrpletnev
+  Date: 26.11.2022
+  Time: 21:34
+  var : 111045
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<h:head>
+    <h:outputScript library="js" name="main.js"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css"/>
+    <link rel="icon" type="image/png" href="resources/img/web3_icon%2032x32.png"/>
+    <link rel="icon" type="image/png" href="resources/img/web3_icon%2048x48.png"/>
+    <link rel="icon" type="image/png" href="resources/img/web3_icon%2096x96.png"/>
+    <link rel="icon" type="image/png" href="resources/img/web3_icon%20144x144.png"/>
+    <title>LAB 3</title>
+</h:head>
+
+<h:body>
+
+    <div id="header">
+        <h:outputText styleClass="label" value="Главная страница"/>
+
+    </div>
+
+    <table id="main">
+            <h:form>
+                <tr id="formRow">
+
+                    <td class="dataInput">
+                        <table class="dataFieldTable">
+                            <tr><td>
+                                <p:outputLabel for="value_X" id="value_X_label" value="Select X:"/>
+                            </td></tr>
+                            <tr><td>
+                                <p:spinner id="value_X"
+                                       value="#{shotBean.shot.x}"
+                                       style="background: black;
+                                       color: white;
+                                       font-family: 'Soyuz Grotesk',  sans-serif ;">
+                                    <f:validateLongRange maximum="5" minimum="-5"/>
+                                </p:spinner>
+                            </td></tr>
+                        </table>
+                    </td>
+                    <td class="dataInput">
+                        <table class="dataFieldTable">
+                            <tr><td>
+                                <p:outputLabel for="value_R" id="value_R_label"  value="input R:"/>
+                            </td></tr>
+                            <tr><td>
+                                <p:inputNumber minValue="2"
+                                           maxValue="5"
+                                           maxlength="3"
+                                           id="value_R"
+                                           required="true"
+                                           value="#{shotBean.shot.r}"
+                                           style="background: black;
+                                           color: white;
+                                           font-family: 'Soyuz Grotesk',  sans-serif ;"/>
+                            </td></tr>
+                        </table>
+                    </td>
+                    <td class="dataInput">
+                        <table class="dataFieldTable">
+                            <tr><td>
+                                <p:outputLabel for="value_Y" value="input Y:"/>
+                            </td></tr>
+                            <tr><td>
+                                <p:inputNumber
+                                        minValue="-3"
+                                        maxValue="3"
+                                        maxlength="3"
+                                        id="value_Y"
+                                        required="true"
+                                        value="#{shotBean.shot.y}"
+                                        style="background: black;
+                                        color: white;
+                                        font-family: 'Soyuz Grotesk',  sans-serif;"/>
+                            </td></tr>
+                        </table>
+
+
+            </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <h:commandButton type="submit"
+                                         value="ОТПРАВИТЬ"
+                                         id="submit_button"
+                                         style="margin-left: 50%; transform: translate(-50%, 0)">
+                            <p:ajax process="@form"
+                                    listener="${shotBean.add()}"
+                                    update="results, plotPanel"
+                                    />
+                        </h:commandButton>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="margin-left: 50%; transform: translate(-50%, 0)">
+                        <h:outputText id="validate_messege" value="here"/>
+                    </td>
+                </tr>
+            </h:form>
+        <tr id="plotRow" onclick="getXYR(event)">
+            <td colspan="3">
+                    <h:panelGrid id="plotPanel" style="display: block;
+    margin-left: auto;
+    margin-right: auto;">
+                    <svg id="plot" xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+
+                    </svg>
+                    <p:remoteCommand update="results, plotPanel" immediate="true" name="clickPlot" action="${shotBean.addThroughPlot()}"/>
+                    <h:outputScript>
+                            <c:forEach var="shot" items="#{shotBean.shotList}">
+                                makeDot(#{shot.x}, #{shot.y}, #{shot.r})
+                            </c:forEach>
+                    </h:outputScript>
+                </h:panelGrid>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p:dataTable id="results" value="#{shotBean.shotList}" var="shot"  border="0" style="font-family: 'Soyuz Grotesk',  sans-serif; text-align: center; background: black; color: white">
+                    <p:column  headerText="X" style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tX" value="#{shot.x}"/>
+                    </p:column>
+                    <p:column  headerText="Y" style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tY" value="#{shot.y}"/>
+                    </p:column>
+                    <p:column  headerText="R"
+                               style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tR" value="#{shot.r}"/>
+                    </p:column>
+                </p:dataTable>
+            </td>
+        </tr>
+    </table>
+</h:body>
+<h:outputScript library="js" name="main.js"/>
+<h:outputScript library="js" name="jquery-3.6.1.min.js"/>
+</html>

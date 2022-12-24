@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab3:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec675ca0-a40a-40eb-8f95-f4641e57b2bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/Shot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/ShotBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/SoyuzGroteskBold/Soyuz Grotesk Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/SoyuzGroteskBold/SoyuzGroteskBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaBold/Wremena Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaBold/WremenaBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaLight/Wremena Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaLight/WremenaLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaRegular/Wremena Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaRegular/WremenaRegular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_plot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/artifacts/lab2_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/artifacts/lab2_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/dictionaries/aleksandrpletnev.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/lab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/AreaCheckServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/CleanServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/ControllerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/model/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/util/CollectionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/css/result.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/anime.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/result.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1.2_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_cycle_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_err_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R0_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R1_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R2_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R3_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R4_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R5_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_hit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_miss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_start.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web_access_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab3_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_web_api_9_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DockDockBuild.Settings">
+    <option name="codePath" value="$PROJECT_DIR$" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="facelets" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar!/jakarta/annotation/ManagedBean.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/platform/jakarta.jakartaee-web-api/9.0.0/jakarta.jakartaee-web-api-9.0.0.jar!/jakarta/faces/context/ExternalContext.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/10.0.0/primefaces-10.0.0-jakarta.jar!/META-INF/primefaces-p.taglib.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I60UU7qsrE4om8qr11CI5L8muR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandrpletnev/Desktop/web-development/lab3/src/main/webapp/resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fonts/" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fonts" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss/WildFly 27" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="lab3:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63108" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lab3:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec675ca0-a40a-40eb-8f95-f4641e57b2bf" name="Changes" comment="" />
+      <created>1669486741045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669486741045</updated>
+      <workItem from="1669486742404" duration="2179000" />
+      <workItem from="1669819625837" duration="2712000" />
+      <workItem from="1669823276081" duration="14650000" />
+      <workItem from="1670150487460" duration="14511000" />
+      <workItem from="1670178429707" duration="1707000" />
+      <workItem from="1670227805542" duration="3943000" />
+      <workItem from="1670315116107" duration="8246000" />
+      <workItem from="1670337914461" duration="14025000" />
+      <workItem from="1670448402822" duration="673000" />
+      <workItem from="1670510835531" duration="10596000" />
+      <workItem from="1670538065663" duration="399000" />
+      <workItem from="1670538484231" duration="3035000" />
+      <workItem from="1670589174139" duration="21183000" />
+      <workItem from="1670668671061" duration="617000" />
+      <workItem from="1670682124995" duration="20857000" />
+      <workItem from="1670789286479" duration="3559000" />
+      <workItem from="1670797231479" duration="450000" />
+      <workItem from="1670845961190" duration="5929000" />
+      <workItem from="1671121401424" duration="4588000" />
+      <workItem from="1671460909896" duration="960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
