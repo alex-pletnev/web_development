@@ -17,11 +17,11 @@
 
 <h:head>
     <h:outputScript library="js" name="main.js"/>
-    <link rel="stylesheet" type="text/css" href="resources/css/main.css"/>
-    <link rel="icon" type="image/png" href="resources/img/web3_icon%2032x32.png"/>
-    <link rel="icon" type="image/png" href="resources/img/web3_icon%2048x48.png"/>
-    <link rel="icon" type="image/png" href="resources/img/web3_icon%2096x96.png"/>
-    <link rel="icon" type="image/png" href="resources/img/web3_icon%20144x144.png"/>
+    <link rel="stylesheet" type="text/css" href="../resources/css/main.css"/>
+    <link rel="icon" type="image/png" href="../resources/img/web3_icon%2032x32.png"/>
+    <link rel="icon" type="image/png" href="../resources/img/web3_icon%2048x48.png"/>
+    <link rel="icon" type="image/png" href="../resources/img/web3_icon%2096x96.png"/>
+    <link rel="icon" type="image/png" href="../resources/img/web3_icon%20144x144.png"/>
     <title>LAB 3</title>
 </h:head>
 
@@ -64,6 +64,7 @@
                                            id="value_R"
                                            required="true"
                                            value="#{shotBean.shot.r}"
+                                           onclick="setInput()"
                                            style="background: black;
                                            color: white;
                                            font-family: 'Soyuz Grotesk',  sans-serif ;"/>
@@ -100,7 +101,7 @@
                                          style="margin-left: 50%; transform: translate(-50%, 0)">
                             <p:ajax process="@form"
                                     listener="${shotBean.add()}"
-                                    update="results, plotPanel"
+                                    update="results"
                                     />
                         </h:commandButton>
 
@@ -114,19 +115,9 @@
             </h:form>
         <tr id="plotRow" onclick="getXYR(event)">
             <td colspan="3">
-                    <h:panelGrid id="plotPanel" style="display: block;
-    margin-left: auto;
-    margin-right: auto;">
-                    <svg id="plot" xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+                <canvas width="400" height="400" id="plot">
 
-                    </svg>
-                    <p:remoteCommand update="results, plotPanel" immediate="true" name="clickPlot" action="${shotBean.addThroughPlot()}"/>
-                    <h:outputScript>
-                            <c:forEach var="shot" items="#{shotBean.shotList}">
-                                makeDot(#{shot.x}, #{shot.y}, #{shot.r})
-                            </c:forEach>
-                    </h:outputScript>
-                </h:panelGrid>
+                </canvas>
             </td>
         </tr>
         <tr>
@@ -148,5 +139,6 @@
     </table>
 </h:body>
 <h:outputScript library="js" name="main.js"/>
+<h:outputScript library="js">setInput();</h:outputScript>
 <h:outputScript library="js" name="jquery-3.6.1.min.js"/>
 </html>

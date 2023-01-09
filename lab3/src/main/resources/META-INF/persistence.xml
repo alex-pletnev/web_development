@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="shots">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <jta-data-source>java:/PostgresDS</jta-data-source>
+        <class>com.example.lab3.Shot</class>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+            <property name="connection.username" value="s335156"/>
+            <property name="connection.password" value="ShTdTGoVvzFovh49"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+
+
+
+
+
+<!--<?xml version='1.0' encoding='utf-8'?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+<!--        <property name="connection.url">jdbc:postgresql://pg:5432/studs</property>-->
+<!--        <property name="connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>-->
+<!--        <property name="show_sql">true</property>-->
+<!--        <property name="connection.username">s335156</property>-->
+<!--        <property name="connection.password">ShTdTGoVvzFovh49</property>-->
+<!--        <property name="current_session_context_class">thread</property>-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+<!--        <mapping class="com.example.lab3.Shot"/>-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->
+
+
+
+
+
+
+
+
+<!--<?xml version='1.0' encoding='utf-8'?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+<!--        <property name="connection.url">jdbc:postgresql://pg:5432/studs</property>-->
+<!--        <property name="connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="connection.username">s335156</property>-->
+<!--        <property name="connection.password">ShTdTGoVvzFovh49</property>-->
+
+<!--&lt;!&ndash;        <property name="hibernate.hbm2ddl.auto">update</property>&ndash;&gt;-->
+
+<!--        <property name="current_session_context_class">thread</property>-->
+<!--        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>-->
+<!--        <property name="show_sql">true</property>-->
+
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->

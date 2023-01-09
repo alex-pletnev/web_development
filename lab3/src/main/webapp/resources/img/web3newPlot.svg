@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 400 400" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="421" id="Filter" width="421" x="-10.5" y="-0.5">
+<feDropShadow dx="-3.61999e-05" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="421" id="Filter_2" width="381" x="9.49996" y="-0.5">
+<feDropShadow dx="-3.61999e-05" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="381" id="Filter_3" width="421" x="-10.5" y="19.5">
+<feDropShadow dx="-3.61999e-05" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="41" id="Filter_4" width="423" x="-11.5" y="189.5">
+<feDropShadow dx="-3.61999e-05" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="423" id="Filter_5" width="41" x="179.5" y="-1.5">
+<feDropShadow dx="-3.61999e-05" dy="10" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="400" width="400" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Bg" vectornator:layerName="Bg">
+<path d="M0 0L400 0L400 400L0 400L0 0Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="bevel" stroke-width="1" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
+</g>
+<g clip-path="url(#ArtboardFrame)" id="Shells" vectornator:layerName="Shells">
+<path d="M20 0L20 400M40 0L40 400M60 0L60 400M80 0L80 400M100 0L100 400M120 0L120 400M160 0L160 400M140 0L140 400M180 0L180 400M220 0L220 400M240 0L240 400M260 0L260 400M280 0L280 400M300 0L300 400M320 0L320 400M340 0L340 400M340 0L340 400M380 0L380 400M360 0L360 400" fill="none" filter="url(#Filter_2)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="bevel" stroke-opacity="0.7" stroke-width="1" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
+<path d="M400 20L-5.68434e-14 20M400 40L-5.68434e-14 40M400 60L-5.68434e-14 60M400 80L-5.68434e-14 80M400 100L-5.68434e-14 100M400 120L-5.68434e-14 120M400 160L-5.68434e-14 160M400 140L-5.68434e-14 140M400 180L-5.68434e-14 180M400 220L-5.68434e-14 220M400 240L-5.68434e-14 240M400 260L-5.68434e-14 260M400 280L-5.68434e-14 280M400 300L-5.68434e-14 300M400 320L-5.68434e-14 320M400 340L-5.68434e-14 340M400 340L-5.68434e-14 340M400 380L-5.68434e-14 380M400 360L-5.68434e-14 360" fill="none" filter="url(#Filter_3)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="bevel" stroke-opacity="0.7" stroke-width="1" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10"/>
+</g>
+<g clip-path="url(#ArtboardFrame)" id="OXY" vectornator:layerName="OXY">
+<g filter="url(#Filter_4)" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
+<path d="M389.481 200C361.3 200 0 200 0 200" fill="none" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="bevel" stroke-width="3"/>
+<g fill="#ffffff" stroke="none">
+<path d="M386.856 200L378.981 210.5L399.981 200L378.981 189.5L386.856 200Z" fill="#ffffff"/>
+</g>
+</g>
+<g filter="url(#Filter_5)" vectornator:shadowAngle="1.5708" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
+<path d="M200 10.5187C200 38.7 200 400 200 400" fill="none" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="bevel" stroke-width="3"/>
+<g fill="#ffffff" stroke="none">
+<path d="M200 13.1437L210.5 21.0187L200 0.0186566L189.5 21.0187L200 13.1437Z" fill="#ffffff"/>
+</g>
+</g>
+</g>
+</svg>
