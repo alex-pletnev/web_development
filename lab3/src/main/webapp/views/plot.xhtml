@@ -4,56 +4,38 @@
                 xmlns:p="http://primefaces.org/ui" xmlns:c="http://java.sun.com/jsp/jstl/core"
                 xmlns:f="http://java.sun.com/jsf/core">
 
-        <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" id="svg-plot">
-            <!-- Оси координат -->
-            <line x1="0" x2="300" y1="150" y2="150"/>
-            <line x1="150" x2="150" y1="0" y2="300"/>
-            <!-- Стрелки к осям -->
-            <polygon points="150,0 145,15 155,15" stroke="#2E2F45"/>
-            <polygon points="300,150 285,145 285,155" stroke="#2E2F45"/>
-            <!-- Метки для значений R на оси X -->
-            <circle id="circleX_1" cx="120" cy="150" r="3" fill="#2E2F45"/>
-            <circle id="circleX_2" cx="135" cy="150" r="3" fill="#2E2F45"/>
-            <circle id="circleCenter" cx="150" cy="150" r="3" fill="#2E2F45"/>
-            <circle id="circleX_3" cx="165" cy="150" r="3" fill="#2E2F45"/>
-            <circle id="circleX_4" cx="180" cy="150" r="3" fill="#2E2F45"/>
-            <!-- Метки для значений R на оси Y -->
-            <circle id="circleY_1" cx="150" cy="120" r="3" fill="#2E2F45"/>
-            <circle id="circleY_2" cx="150" cy="135" r="3" fill="#2E2F45"/>
-            <circle id="circleY_3" cx="150" cy="165" r="3" fill="#2E2F45"/>
-            <circle id="circleY_4" cx="150" cy="180" r="3" fill="#2E2F45"/>
+        <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" id="plot">
+
             <!-- Треугольник -->
-            <polygon id="triangle" stroke="black" fill="transparent" fill-opacity="0.3" points="165,150 150,165 150,150"/>
+            <polygon id="triangle" stroke="white" fill="white" fill-opacity="0.3" points="220,200 200,200 200,180"/>
             <!-- Прямоугольник -->
-            <polygon id="rectangle" stroke="black" fill="transparent" fill-opacity="0.3" points="150,150 150,165 120,165 120,150 "/>
+            <polygon id="rectangle" stroke="white" fill="white" fill-opacity="0.3" points="200,200 200,220 160,220 160,200 "/>
             <!-- Четверть эллипса -->
-            <path id="circle" stroke="black" fill="transparent" fill-opacity="0.3"
-                  d="M150,120 A30,30 1 0,1 180,150 L 150,150 Z"/>
-            <!-- Подписи к осям -->
-            <text x="285" y="135">X</text>
-            <text x="160" y="15">Y</text>
-            <!-- Значения R на оси X -->
-            <text id="nameX_1" x="110" y="135" font-size="11px">-R</text>
-            <text id="nameX_2" x="175" y="135" font-size="11px">R</text>
-            <!-- Значения R на оси Y -->
-            <text id="nameY_1" x="165" y="122.5" font-size="11px">R</text>
-            <text id="nameY_2" x="165" y="182.5" font-size="11px">-R</text>
+            <path id="circle" stroke="white" fill="white" fill-opacity="0.3"
+                  d="M180,200 A20,20 90 0,1 200,180 L 200,200 Z"/>
+
         </svg>
-        <p:remoteCommand update="results, panelGridPlot, form:value_X" immediate="true" name="clickPlot" action="${shotBean.addThroughPlot()}"/>
+        <p:remoteCommand update="results, plotGrid" immediate="true" name="clickPlot" action="${shotBean.addThroughPlot()}"/>
         <h:outputScript>
             function getCoordinates(event){
             let coordinates={}
-            coordinates.r = parseFloat(document.getElementById('form:value_R_hinput').value);
-            coordinates.x = ((event.offsetX - 150)/30).toFixed(2);
-            coordinates.y = (((-1)*(event.offsetY - 150))/30).toFixed(2)
+            coordinates.r = parseFloat(document.getElementById(&apos;j_idt11:value_R_hinput&apos;).value);
+            coordinates.x = ((event.offsetX - 200)/40).toFixed(2);
+            coordinates.y = (((-1)*(event.offsetY - 200)) / 40).toFixed(2)
+            console.log(coordinates)
             return coordinates;
             }
-            document.getElementById('svg-plot').addEventListener('click', function (event){
+
+            document.getElementById(&apos;plot&apos;).addEventListener(&apos;click&apos;, function (event){
             let coords = getCoordinates(event);
-            if (isValid(coords.x, coords.y, coords.r)) clickPlot([{name: 'x', value: coords.x}, {name: 'y', value: coords.y}, {name: 'r', value: coords.r}]);
+
+            if (isValid(coords.x, coords.y, coords.r)) {
+                clickPlot([{name: &apos;x&apos;, value: coords.x}, {name: &apos;y&apos;, value: coords.y}, {name: &apos;r&apos;, value: coords.r}]);
+            document.getElementById(&quot;validate_messege&quot;).innerText = &quot;&quot;;
+
+            }
             else {
-                if(!(coords.r == 1.0 || coords.r == 1.5 || coords.r == 2.0 || coords.r == 2.5 || coords.r == 3.0)) alert("Wrong R !!!");
-                else alert("Out of tolerance range !!!");
+                document.getElementById(&quot;validate_messege&quot;).innerText = &quot;Out of tolerance range !!!&quot;;
             }
             })
             <c:forEach var="shot" items="#{shotBean.shotsList}">

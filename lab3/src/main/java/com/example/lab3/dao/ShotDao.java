@@ -1,11 +1,9 @@
-package com.youngpopeugene.web_lab3.dao;
-import com.youngpopeugene.web_lab3.entity.Shot;
+package com.example.lab3.dao;
+import com.example.lab3.Shot;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
-import jakarta.transaction.Transactional;
+import jakarta.persistence.*;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -13,13 +11,20 @@ import java.util.List;
 public class ShotDao implements Serializable {
     private EntityManager entityManager;
     private EntityManagerFactory entityManagerFactory;
+    private EntityTransaction entityTransaction;
 
     public void createEntityManager() {
         entityManagerFactory = Persistence.createEntityManagerFactory("shots");
         entityManager = entityManagerFactory.createEntityManager();
+        entityTransaction = entityManager.getTransaction();
     }
 
     public void addShotToDB(Shot shot) {
+//        if (!entityTransaction.isActive()){
+//            entityTransaction.begin();
+//            entityManager.persist(shot);
+//            entityTransaction.commit();
+//        }
         entityManager.getTransaction().begin();
         try {
             entityManager.persist(shot);
@@ -43,3 +48,4 @@ public class ShotDao implements Serializable {
         entityManager.getTransaction().commit();
     }
 }
+

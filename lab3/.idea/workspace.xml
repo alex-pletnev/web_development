@@ -10,87 +10,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec675ca0-a40a-40eb-8f95-f4641e57b2bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/Shot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/ShotBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/SoyuzGroteskBold/Soyuz Grotesk Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/SoyuzGroteskBold/SoyuzGroteskBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaBold/Wremena Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaBold/WremenaBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaLight/Wremena Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaLight/WremenaLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaRegular/Wremena Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/WremenaRegular/WremenaRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon 96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/web3_plot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/artifacts/lab2_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/artifacts/lab2_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/dictionaries/aleksandrpletnev.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/AreaCheckServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/CleanServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/ControllerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/model/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/java/com/weblab/lab2/util/CollectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/css/result.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/anime.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/jquery-3.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/js/result.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1.2_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_cycle_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_err_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web1_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R0_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R1_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R2_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R3_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R4_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2R5_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_hit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_miss.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web2_start.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/res/web_access_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/main/webapp/result.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/SpringLab4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/controllers/ShotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/model/Shot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/model/util/AreaChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/model/util/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/repositories/ShotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/services/ShotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/java/com/example/SpringLab4/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringLab4/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab3_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab3_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_web_api_9_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab3/Shot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/Shot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab3/ShotBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/ShotBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab3/dao/ShotDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/dao/ShotDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab3/util/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/util/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab3/util/Validators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab3/util/Validators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/main.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/plot.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/plot.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,9 +58,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="facelets" />
-        <option value="Class" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Class" />
+        <option value="jsf" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -136,33 +88,43 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandrpletnev/Desktop/web-development/lab3/src/main/webapp/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandrpletnev/Desktop/web_development/lab3&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/lab3/dao" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/fonts/" />
-      <recent name="$PROJECT_DIR$/src/main/resources/fonts" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/img" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/vievs" />
     </key>
   </component>
   <component name="RunManager">
@@ -267,6 +229,22 @@
       <workItem from="1670845961190" duration="5929000" />
       <workItem from="1671121401424" duration="4588000" />
       <workItem from="1671460909896" duration="960000" />
+      <workItem from="1671888123029" duration="1000" />
+      <workItem from="1671888134393" duration="12214000" />
+      <workItem from="1671909464946" duration="1363000" />
+      <workItem from="1671912085595" duration="1808000" />
+      <workItem from="1671977058094" duration="7002000" />
+      <workItem from="1672006437491" duration="12518000" />
+      <workItem from="1672046924355" duration="5542000" />
+      <workItem from="1672054347624" duration="6641000" />
+      <workItem from="1672062103330" duration="12088000" />
+      <workItem from="1672077450629" duration="13779000" />
+      <workItem from="1672092728979" duration="5917000" />
+      <workItem from="1672349901388" duration="174000" />
+      <workItem from="1673262540151" duration="614000" />
+      <workItem from="1673275580992" duration="616000" />
+      <workItem from="1673554205223" duration="1971000" />
+      <workItem from="1674768206544" duration="1168000" />
     </task>
     <servers />
   </component>
@@ -278,7 +256,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

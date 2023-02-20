@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-   <f:view>
-      <h:outputLabel value="Hello, world"/>
-   </f:view>
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Start Page</title>
+    <h:outputStylesheet library="css" name="main.css"/>
+</h:head>
+
+<h:body>
+    <div id="header">
+        <h:outputText styleClass="label" value="Стартовоя страница"/>
+
+    </div>
+    <table id="main">
+        <thead>
+        <tr>
+            <th class="bio" id="firstbio" colspan="2" >Лабораторная работа по програмированию №3</th>
+        </tr>
+        <tr>
+            <th class="bio" colspan="2"><span id="clock">00:00:00</span></th>
+        </tr>
+        <tr>
+            <th class="bio">Плетнев Александр</th>
+            <th class="bio">
+                <svg class="logo" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+
+                </svg>
+            </th>
+        </tr>
+        <tr>
+            <th class="bio">
+                <svg class="logo" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+
+                </svg>
+            </th>
+            <th class="bio">Группа: P32111</th>
+        </tr>
+        <tr>
+            <th class="bio">Вариант: 111045</th>
+            <th class="bio">
+                <svg class="logo" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+
+                </svg>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="2">
+                <h:button style="margin-left: 50%; transform: translate(-50%, 0); background: transparent; border: 2px solid #ffffff; font-family: inherit; color: white; font-size: 2rem" outcome="to_main" value="ДАЛЕЕ"></h:button>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</h:body>
+<h:outputScript library="js" name="clock.js"/>
+<h:outputScript library="js" name="jquery-3.6.1.min.js"/>
 </html>

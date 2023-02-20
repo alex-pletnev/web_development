@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" href="../resources/img/web3_icon%2096x96.png"/>
     <link rel="icon" type="image/png" href="../resources/img/web3_icon%20144x144.png"/>
     <title>LAB 3</title>
+
 </h:head>
 
 <h:body>
@@ -33,13 +34,14 @@
     </div>
 
     <table id="main">
-            <h:form>
+        <h:button style="margin-left: 50%; transform: translate(-50%, 0); background: transparent; border: 2px solid #ffffff; font-family: inherit; color: white; font-size: 2rem " outcome="to_index" value="НА СТАРТОВУЮ"></h:button>
+        <h:form>
                 <tr id="formRow">
 
                     <td class="dataInput">
                         <table class="dataFieldTable">
                             <tr><td>
-                                <p:outputLabel for="value_X" id="value_X_label" value="Select X:"/>
+                                <p:outputLabel for="value_X" id="value_X_label" value="Select X: [-5; 5]"/>
                             </td></tr>
                             <tr><td>
                                 <p:spinner id="value_X"
@@ -55,7 +57,7 @@
                     <td class="dataInput">
                         <table class="dataFieldTable">
                             <tr><td>
-                                <p:outputLabel for="value_R" id="value_R_label"  value="input R:"/>
+                                <p:outputLabel for="value_R" id="value_R_label"  value="input R: [2; 5]"/>
                             </td></tr>
                             <tr><td>
                                 <p:inputNumber minValue="2"
@@ -64,7 +66,6 @@
                                            id="value_R"
                                            required="true"
                                            value="#{shotBean.shot.r}"
-                                           onclick="setInput()"
                                            style="background: black;
                                            color: white;
                                            font-family: 'Soyuz Grotesk',  sans-serif ;"/>
@@ -74,7 +75,7 @@
                     <td class="dataInput">
                         <table class="dataFieldTable">
                             <tr><td>
-                                <p:outputLabel for="value_Y" value="input Y:"/>
+                                <p:outputLabel for="value_Y" value="input Y: [-3; 3]"/>
                             </td></tr>
                             <tr><td>
                                 <p:inputNumber
@@ -98,31 +99,46 @@
                         <h:commandButton type="submit"
                                          value="ОТПРАВИТЬ"
                                          id="submit_button"
-                                         style="margin-left: 50%; transform: translate(-50%, 0)">
+                                         style="margin-left: 50%; transform: translate(-50%, 0); background: transparent; border: 2px solid #ffffff; font-family: inherit; color: white; font-size: 2rem">
                             <p:ajax process="@form"
                                     listener="${shotBean.add()}"
-                                    update="results"
+                                    update="results, plotGrid"
                                     />
                         </h:commandButton>
 
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="3" style="margin-left: 50%; transform: translate(-50%, 0)">
-                        <h:outputText id="validate_messege" value="here"/>
+                    <td colspan="3">
+                        <h:commandButton id="clean-button" type="button" value="ОЧИСТИТЬ" style="margin-left: 50%; transform: translate(-50%, 0); background: transparent; border: 2px solid #ffffff; font-family: inherit; color: white; font-size: 2rem" >
+                            <p:ajax listener="#{shotBean.clear()}" update="results, plotGrid"/>
+                        </h:commandButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div id="validate_messege" style="margin-left: 50% !important;
+    transform: translate(-50%, 0) !important;
+    text-align: center !important;
+    font-size: 3rem !important;
+    color: #ff0000aa !important;
+z-index: 600">
+
+                        </div>
                     </td>
                 </tr>
             </h:form>
         <tr id="plotRow" onclick="getXYR(event)">
             <td colspan="3">
-                <canvas width="400" height="400" id="plot">
-
-                </canvas>
+                <h:panelGrid id="plotGrid" style="argin-left: auto !important;
+    transform: translate(90%, 0) !important;">
+                    <ui:include src="plot.xhtml"/>
+                </h:panelGrid>
             </td>
         </tr>
         <tr>
             <td colspan="3">
-                <p:dataTable id="results" value="#{shotBean.shotList}" var="shot"  border="0" style="font-family: 'Soyuz Grotesk',  sans-serif; text-align: center; background: black; color: white">
+                <p:dataTable id="results" value="#{shotBean.shotsList}" var="shot" border="0" style="font-family: 'Soyuz Grotesk',  sans-serif; text-align: center; background: black; color: white">
                     <p:column  headerText="X" style="text-align: center; background: black; color: white; font-size: 2rem">
                         <h:outputText id="tX" value="#{shot.x}"/>
                     </p:column>
@@ -133,12 +149,23 @@
                                style="text-align: center; background: black; color: white; font-size: 2rem">
                         <h:outputText id="tR" value="#{shot.r}"/>
                     </p:column>
+                    <p:column  headerText="Status"
+                               style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tStatus" value="#{shot.status}"/>
+                    </p:column>
+                    <p:column  headerText="Current Time"
+                               style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tSurrentTime" value="#{shot.currentTime}"/>
+                    </p:column>
+                    <p:column  headerText="Script Time"
+                               style="text-align: center; background: black; color: white; font-size: 2rem">
+                        <h:outputText id="tScriptTime" value="#{shot.scriptTime}"/>
+                    </p:column>
                 </p:dataTable>
             </td>
         </tr>
     </table>
 </h:body>
 <h:outputScript library="js" name="main.js"/>
-<h:outputScript library="js">setInput();</h:outputScript>
 <h:outputScript library="js" name="jquery-3.6.1.min.js"/>
 </html>
